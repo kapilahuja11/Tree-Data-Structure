@@ -1,0 +1,22 @@
+struct Node{
+{
+     int data;
+     Node* left, *right;
+};
+/*  modifies the root of the bst */
+int sum;
+void modifybst(Node *r);
+void modifybst(Node *r)
+{
+    if(r==NULL)
+    return;
+    modifybst(r->right);
+    sum+=r->data;
+    r->data=sum;
+    modifybst(r->left);
+}
+void modify(Node **root)
+{
+   sum=0;
+   modifybst(*root);
+}
