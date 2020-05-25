@@ -5,7 +5,7 @@ struct Node
  
     Node* left;
     Node* right;
-};*/
+};
 #include <vector>
 void inorder(Node *root,int k,vector<int> &vec)
 {
