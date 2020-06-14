@@ -51,7 +51,7 @@ void mergesort(int length)
 	{
 		swap(a[i],i);
 		reduce--;
-			build_max_heap(reduce);
+		build_max_heap(reduce);
 	}
 	
 }
@@ -59,21 +59,21 @@ void mergesort(int length)
 int main()
 {
 	int i,length;
- printf("enter the length/n");
- scanf("%d",&length);
-printf("Enter the numbers");
-for(i=1;i<=length;i++)
-scanf("%d",&a[i]);
+ 	printf("enter the length/n");
+ 	scanf("%d",&length);
+	printf("Enter the numbers");
+	for(i=1;i<=length;i++)
+	scanf("%d",&a[i]);
 	build_max_heap(length);
 	
 	for(i=1;i<=length;i++)
 	printf("%d ",a[i]);
 	
-		mergesort(length);
-		printf("\n");
+	mergesort(length);
+	printf("\n");
 	for(i=1;i<=length;i++)
 	{
 	printf("%d ",a[i]);
-   }
+   	}
 }
 
