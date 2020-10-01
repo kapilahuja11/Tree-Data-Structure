@@ -1,5 +1,5 @@
 # Tree Data-Structure
-This repository contains my solutions for common Tree data structure problems and implementation of Data Structures in Cpp.
+This repository contains solutions for common Tree data structure problems and implementation of Data Structures in Cpp.
 I've created this repository to learn about algorithms. I am adding solutions continuously.   
 
 ## Problems:
